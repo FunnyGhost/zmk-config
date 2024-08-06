@@ -1,0 +1,90 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  default: [TAB, V, M, L, C, P, X, F, O, U, J, BSPC, CAPSLOCK, S, T, R, D, Y, ., N, A, E, I, '?', LSHFT, Z, K, Q, G, W, B, H, '''', ;, ',', RIGHT SHIFT, LGUI, lower,
+    SPACE, RET, raise, RALT]
+  lower:
+  - TAB
+  - LEFT
+  - UP ARROW
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - '*'
+  - /
+  - BSPC
+  - CAPS
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - '-'
+  - {t: ▽, type: trans}
+  - LSHFT
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - '='
+  - RIGHT SHIFT
+  - LGUI
+  - {type: held}
+  - SPACE
+  - RET
+  - {t: ▽, type: trans}
+  - RALT
+  raise:
+  - TAB
+  - ''''
+  - <
+  - '>'
+  - '"'
+  - .
+  - '&'
+  - '&'
+  - '['
+  - ']'
+  - '%'
+  - BSPC
+  - CAPSLOCK
+  - '!'
+  - '-'
+  - +
+  - '='
+  - '#'
+  - '|'
+  - ':'
+  - (
+  - )
+  - \
+  - '`'
+  - LSHFT
+  - ^
+  - /
+  - '*'
+  - \
+  - {t: ▽, type: trans}
+  - '~'
+  - $
+  - '{'
+  - '}'
+  - '@'
+  - RIGHT SHIFT
+  - LGUI
+  - {t: ▽, type: trans}
+  - SPACE
+  - RET
+  - {type: held}
+  - RALT
