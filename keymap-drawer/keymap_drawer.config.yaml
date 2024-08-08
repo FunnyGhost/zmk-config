@@ -250,47 +250,34 @@ parse_config:
     HOME: 'Home'
     END: 'End'
     ESC: 'Esc'
-    GLOBE: $$tabler:world$$
+    TAB: $$mdi:keyboard-tab$$
+    CAPSLOCK: $$mdi:apple-keyboard-control$$
+    CAPS: $$mdi:apple-keyboard-control$$
+    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    LEFT_GUI: $$mdi:apple-keyboard-command$$
+    LGUI: $$mdi:apple-keyboard-command$$
     SPACE: $$mdi:keyboard-space$$
     BACKSPACE: $$mdi:backspace-outline$$
     BSPC: $$mdi:backspace-outline$$
-    CAPSLOCK: $$tabler:layers-intersect$$
-    CAPS: $$tabler:layers-intersect$$
-    DELETE: $$mdi:backspace-reverse-outline$$
-    C_PP: $$mdi:play-pause$$
-    C_NEXT: $$mdi:skip-forward$$
-    C_PREV: $$mdi:skip-backward$$
-    C_MUTE: $$mdi:volume-mute$$
-    C_VOL_UP: $$mdi:volume-plus$$
-    C_VOL_DN: $$mdi:volume-minus$$
-    C_BRI_UP: $$tabler:brightness-up$$
-    C_BRI_DN: $$tabler:brightness-down$$
-    C_POWER: $$mdi:power$$
-    C_SLEEP: $$mdi:power-sleep$$
+    RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
+    RSHIFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    LEFT_ALT: $$mdi:apple-keyboard-option$$
+    LALT: $$mdi:apple-keyboard-option$$
+    RIGHT_ALT: $$mdi:apple-keyboard-option$$
+    RALT: $$mdi:apple-keyboard-option$$
+    RETURN: $$mdi:keyboard-return$$
+    RET: $$mdi:keyboard-return$$
     UP: $$mdi:arrow-up$$
     UP_ARROW: $$mdi:arrow-up$$
     DOWN: $$mdi:arrow-down$$
     LEFT: $$mdi:arrow-left$$
     RIGHT: $$mdi:arrow-right$$
-    RETURN: ⮐
-    KP_NUMLOCK: Numlock
-    TAB: $$mdi:keyboard-tab$$
-    LEFT_GUI: $$mdi:apple-keyboard-command$$
-    LGUI: $$mdi:apple-keyboard-command$$
-    RIGHT_GUI: $$mdi:apple-keyboard-command$$
-    RGUI: $$mdi:apple-keyboard-command$$
-    LEFT_ALT: $$mdi:apple-keyboard-option$$
-    LALT: $$mdi:apple-keyboard-option$$
-    RIGHT_ALT: $$mdi:apple-keyboard-option$$
-    RALT: $$mdi:apple-keyboard-option$$
-    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
-    LSHIFT: $$mdi:apple-keyboard-shift$$
-    LSHFT: $$mdi:apple-keyboard-shift$$
-    RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
-    RSHIFT: $$mdi:apple-keyboard-shift$$
-    RSHFT: $$mdi:apple-keyboard-shift$$
-    RIGHT_CONTROL: $$mdi:apple-keyboard-control$$
-    RCTRL: $$mdi:apple-keyboard-control$$
-    LCTRL: $$mdi:apple-keyboard-control$$
-    LEFT_CONTROL: $$mdi:apple-keyboard-control$$
-    LC(A): 'tmux prefix'
+    BT_SEL_0: $$mdi:bluetooth$$ 
+    BT_SEL_1: $$mdi:bluetooth$$
+    BT_SEL_2: $$mdi:bluetooth$$
+    BT_SEL_3: $$mdi:bluetooth$$
+    BT_SEL_4: $$mdi:bluetooth$$
+    BT_CLEAR: $$mdi:bluetooth-off$$
