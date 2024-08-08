@@ -1,13 +1,13 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  default: [TAB, V, M, L, C, P, X, F, O, U, J, BSPC, CAPSLOCK, S, T, R, D, Y, ., N, A, E, I, '?', LSHFT, Z, K, Q, G, W, B, H, '''', ;, ',', RIGHT SHIFT, LGUI, lower,
-    SPACE, RET, raise, RALT]
+  default: ['$$mdi:keyboard-tab$$', V, M, L, C, P, X, F, O, U, J, BSPC, CAPSLOCK, S, T, R, D, Y, ., N, A, E, I, '?', '$$mdi:apple-keyboard-shift$$', Z, K, Q, G, W,
+    B, H, '''', ;, ',', '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$', RET, raise, '$$mdi:apple-keyboard-option$$']
   lower:
-  - TAB
-  - LEFT
+  - $$mdi:keyboard-tab$$
+  - $$mdi:arrow-left$$
   - UP ARROW
-  - DOWN
-  - RIGHT
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -27,7 +27,7 @@ layers:
   - +
   - '-'
   - {t: ▽, type: trans}
-  - LSHFT
+  - $$mdi:apple-keyboard-shift$$
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -38,15 +38,15 @@ layers:
   - '3'
   - '0'
   - '='
-  - RIGHT SHIFT
-  - LGUI
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - {type: held}
-  - SPACE
+  - $$mdi:keyboard-space$$
   - RET
   - {t: ▽, type: trans}
-  - RALT
+  - $$mdi:apple-keyboard-option$$
   raise:
-  - TAB
+  - $$mdi:keyboard-tab$$
   - ''''
   - <
   - '>'
@@ -70,7 +70,7 @@ layers:
   - )
   - \
   - '`'
-  - LSHFT
+  - $$mdi:apple-keyboard-shift$$
   - ^
   - /
   - '*'
@@ -81,10 +81,10 @@ layers:
   - '{'
   - '}'
   - '@'
-  - RIGHT SHIFT
-  - LGUI
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
-  - SPACE
+  - $$mdi:keyboard-space$$
   - RET
   - {type: held}
-  - RALT
+  - $$mdi:apple-keyboard-option$$
