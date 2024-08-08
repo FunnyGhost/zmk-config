@@ -1,11 +1,11 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  default: ['$$mdi:keyboard-tab$$', V, M, L, C, P, X, F, O, U, J, BSPC, CAPSLOCK, S, T, R, D, Y, ., N, A, E, I, '?', '$$mdi:apple-keyboard-shift$$', Z, K, Q, G, W,
-    B, H, '''', ;, ',', '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$', RET, raise, '$$mdi:apple-keyboard-option$$']
+  default: ['$$mdi:keyboard-tab$$', V, M, L, C, P, X, F, O, U, J, '$$mdi:backspace-outline$$', '$$tabler:layers-intersect$', S, T, R, D, Y, ., N, A, E, I, '?', '$$mdi:apple-keyboard-shift$$',
+    Z, K, Q, G, W, B, H, '''', ;, ',', '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$', RET, raise, '$$mdi:apple-keyboard-option$$']
   lower:
   - $$mdi:keyboard-tab$$
   - $$mdi:arrow-left$$
-  - UP ARROW
+  - $$mdi:arrow-up$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
   - {t: ▽, type: trans}
@@ -14,8 +14,8 @@ layers:
   - '9'
   - '*'
   - /
-  - BSPC
-  - CAPS
+  - $$mdi:backspace-outline$$
+  - $$tabler:layers-intersect$
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -57,8 +57,8 @@ layers:
   - '['
   - ']'
   - '%'
-  - BSPC
-  - CAPSLOCK
+  - $$mdi:backspace-outline$$
+  - $$tabler:layers-intersect$
   - '!'
   - '-'
   - +

@@ -253,6 +253,9 @@ parse_config:
     GLOBE: $$tabler:world$$
     SPACE: $$mdi:keyboard-space$$
     BACKSPACE: $$mdi:backspace-outline$$
+    BSPC: $$mdi:backspace-outline$$
+    CAPSLOCK: $$tabler:layers-intersect$
+    CAPS: $$tabler:layers-intersect$
     DELETE: $$mdi:backspace-reverse-outline$$
     C_PP: $$mdi:play-pause$$
     C_NEXT: $$mdi:skip-forward$$
@@ -265,6 +268,7 @@ parse_config:
     C_POWER: $$mdi:power$$
     C_SLEEP: $$mdi:power-sleep$$
     UP: $$mdi:arrow-up$$
+    UP_ARROW: $$mdi:arrow-up$$
     DOWN: $$mdi:arrow-down$$
     LEFT: $$mdi:arrow-left$$
     RIGHT: $$mdi:arrow-right$$
