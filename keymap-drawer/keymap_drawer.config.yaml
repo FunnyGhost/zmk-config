@@ -254,8 +254,8 @@ parse_config:
     SPACE: $$mdi:keyboard-space$$
     BACKSPACE: $$mdi:backspace-outline$$
     BSPC: $$mdi:backspace-outline$$
-    CAPSLOCK: $$tabler:layers-intersect$
-    CAPS: $$tabler:layers-intersect$
+    CAPSLOCK: $$tabler:layers-intersect$$
+    CAPS: $$tabler:layers-intersect$$
     DELETE: $$mdi:backspace-reverse-outline$$
     C_PP: $$mdi:play-pause$$
     C_NEXT: $$mdi:skip-forward$$
