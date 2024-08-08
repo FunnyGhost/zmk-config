@@ -1,4 +1,5 @@
 draw_config:
+  dark_mode: true
   n_columns: 1
   draw_key_sides: true
   key_w: 60.0
@@ -275,9 +276,9 @@ parse_config:
     DOWN: $$mdi:arrow-down$$
     LEFT: $$mdi:arrow-left$$
     RIGHT: $$mdi:arrow-right$$
-    BT_SEL_0: $$mdi:bluetooth$$ 
-    BT_SEL_1: $$mdi:bluetooth$$
-    BT_SEL_2: $$mdi:bluetooth$$
-    BT_SEL_3: $$mdi:bluetooth$$
-    BT_SEL_4: $$mdi:bluetooth$$
-    BT_CLEAR: $$mdi:bluetooth-off$$
+    BT_0: $$mdi:bluetooth$$ 
+    BT_1: $$mdi:bluetooth$$
+    BT_2: $$mdi:bluetooth$$
+    BT_3: $$mdi:bluetooth$$
+    BT_4: $$mdi:bluetooth$$
+    BT_CLER: $$mdi:bluetooth-off$$
