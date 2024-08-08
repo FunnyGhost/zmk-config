@@ -276,9 +276,28 @@ parse_config:
     DOWN: $$mdi:arrow-down$$
     LEFT: $$mdi:arrow-left$$
     RIGHT: $$mdi:arrow-right$$
-    BT_0: $$mdi:bluetooth$$ 
-    BT_1: $$mdi:bluetooth$$
-    BT_2: $$mdi:bluetooth$$
-    BT_3: $$mdi:bluetooth$$
-    BT_4: $$mdi:bluetooth$$
-    BT_CLER: $$mdi:bluetooth-off$$
+  raw_binding_map:
+    '&bt BT_CLR':
+      tap: $$mdi:bluetooth-settings$$
+      shifted: $$mdi:close-thick$$
+      type: sym_sub_text
+    '&bt BT_SEL 0':
+      tap: $$mdi:bluetooth-connect$$
+      shifted: '0'
+      type: sym_sub_text
+    '&bt BT_SEL 1':
+      tap: $$mdi:bluetooth-connect$$
+      shifted: '1'
+      type: sym_sub_text
+    '&bt BT_SEL 2':
+      tap: $$mdi:bluetooth-connect$$
+      shifted: '2'
+      type: sym_sub_text
+    '&bt BT_SEL 3':
+      tap: $$mdi:bluetooth-connect$$
+      shifted: '3'
+      type: sym_sub_text
+    '&bt BT_SEL 4':
+      tap: $$mdi:bluetooth-connect$$
+      shifted: '4'
+      type: sym_sub_text

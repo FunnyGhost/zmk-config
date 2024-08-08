@@ -17,11 +17,11 @@ layers:
   - /
   - $$mdi:backspace-outline$$
   - $$mdi:apple-keyboard-control$$
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '0', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '3', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '4', type: sym_sub_text}
   - '4'
   - '5'
   - '6'
@@ -29,7 +29,7 @@ layers:
   - '-'
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - BT CLR
+  - {t: '$$mdi:bluetooth-settings$$', s: '$$mdi:close-thick$$', type: sym_sub_text}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
