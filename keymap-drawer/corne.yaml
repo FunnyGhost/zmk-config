@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   default: ['$$mdi:keyboard-tab$$', V, M, L, C, P, X, F, O, U, J, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', S, T, R, D, Y, ., N, A, E, I, '?',
     '$$mdi:apple-keyboard-shift$$', Z, K, Q, G, W, B, H, '''', ;, ',', '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$',
@@ -52,7 +52,7 @@ layers:
   - <
   - '>'
   - '"'
-  - .
+  - _
   - '&'
   - '&'
   - '['
